@@ -6,7 +6,7 @@
 ~> Desgin URL    : www.sting-web.com
 ==============================*/
 const STWJSap = async function get() {
-  const loadingIcon = document.getElementById("STING-WEB-LoadingTable");
+  const loadingIcon = document.getElementById("STING-WEB_LoadingTable");
 
   const STWYesterday = document.querySelector(".STING-WEB_Yesterday");
   const STWToday = document.querySelector(".STING-WEB_Today");

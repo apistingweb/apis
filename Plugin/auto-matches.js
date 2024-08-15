@@ -22,7 +22,7 @@ const STWJSap = async function get() {
   async function fetchData() {
     try {
       const response = await fetch(
-        "https://sting-web.com/api/oo/v1/get%D8%9Fauto=all=matches/"
+        "https://www.sting-web.com/api/oo/v1/get%D8%9Fauto=all=matches/"
       );
       if (!response.ok) {
         throw new Error("Failed to fetch data");
